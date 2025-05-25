@@ -32,16 +32,27 @@ A production-grade **Flutter** application built using **Clean Architecture**, p
 
 lib/
 ├── core/ # Common utilities, constants, themes, etc.
+
 ├── features/ # Feature-based module separation
+
 │ ├── auth/ # User authentication (login/signup)
+
 │ │ ├── domain/ # Entities & repositories (abstract layer)
+
 │ │ ├── data/ # DTOs, data sources, repository impl.
+
 │ │ └── presentation/ # Screens, widgets, and UI logic
+
 │ ├── blog/ # Blog operations (title + content CRUD)
+
 │ │ ├── domain/ # Blog entity & blog repository
+
 │ │ ├── data/ # Blog model & data source
+
 │ │ └── presentation/ # UI: blog list, create/edit screens
+
 ├── di/ # Dependency injection setup using GetIt
+
 └── main.dart # App entry point
 
 
