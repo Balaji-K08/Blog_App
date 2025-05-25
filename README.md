@@ -31,10 +31,10 @@ A production-grade **Flutter** application built using **Clean Architecture**, p
 ## 📂 Project Structure :
 
 lib/
-├── core/                     # Common utilities and constants
-├── features/                 # Feature modules (auth, blog)
-│   ├── auth/                 # Authentication logic
-│   │   ├── domain/           # Entities & repository contracts
+├── core/                     # Common utilities and constants.
+├── features/                 # Feature modules (auth, blog).
+│   ├── auth/                 # Authentication logic.
+│   │   ├── domain/           # Entities & repository contracts.
 │   │   ├── data/             # Data models & Supabase auth source
 │   │   └── presentation/     # Login/signup UI
 │   ├── blog/                 # Blog feature (title + content CRUD)
@@ -44,8 +44,8 @@ lib/
 ├── di/                       # Dependency Injection (GetIt setup)
 └── main.dart                 # App entry point
 
-
-📌 Highlights :
+---
+## 📌 Highlights :
 
 ✅ Follows clean, scalable, testable architecture
 
