@@ -30,6 +30,7 @@ A production-grade **Flutter** application built using **Clean Architecture**, p
 
 ## 📂 Project Structure :
 
+```
 lib/
 ├── core/                     # Common utilities and constants.
 ├── features/                 # Feature modules (auth, blog).
@@ -43,7 +44,7 @@ lib/
 │   │   └── presentation/     # Blog list/create/edit UI
 ├── di/                       # Dependency Injection (GetIt setup)
 └── main.dart                 # App entry point
-
+```
 ---
 ## 📌 Highlights :
 
