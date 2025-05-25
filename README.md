@@ -30,7 +30,7 @@ A production-grade **Flutter** application built using **Clean Architecture**, p
 
 ## 📂 Project Structure :
 
-<pre lang="markdown"> ## 📂 Project Structure ``` lib/ ├── core/ # Common utilities, constants, themes, etc. ├── features/ # Feature-based module separation │ ├── auth/ # User authentication (login/signup) │ │ ├── domain/ # Entities & repositories (abstract layer) │ │ ├── data/ # DTOs, data sources, repository impl. │ │ └── presentation/ # Screens, widgets, and UI logic │ ├── blog/ # Blog operations (title + content CRUD) │ │ ├── domain/ # Blog entity & blog repository │ │ ├── data/ # Blog model & data source │ │ └── presentation/ # UI: blog list, create/edit screens ├── di/ # Dependency injection setup using GetIt └── main.dart # App entry point ``` </pre>
+<pre> ## 📂 Project Structure ``` lib/ ├── core/ # Common utilities and constants ├── features/ # Feature modules (auth, blog) │ ├── auth/ # Authentication logic │ │ ├── domain/ # Entities & repositories (abstract) │ │ ├── data/ # Models and Supabase auth datasource │ │ └── presentation/ # Screens and UI widgets (login/signup) │ ├── blog/ # Blog feature (title + content CRUD) │ │ ├── domain/ # Blog entity and repository contract │ │ ├── data/ # Blog model and Supabase integration │ │ └── presentation/ # Blog UI (create/edit/list) ├── di/ # Dependency Injection setup (GetIt) └── main.dart # App entry point ``` </pre>
 
 📌 Highlights :
 
